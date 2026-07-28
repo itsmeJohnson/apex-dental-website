@@ -394,10 +394,9 @@ export default function HomePage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              {/* Teeth Whitening Slider Simulation */}
               <BeforeAfterSlider
-                beforeImage="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=600&h=400&fit=crop"
-                afterImage="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=600&h=400&fit=crop"
+                beforeImage="/images/whitening_before.png"
+                afterImage="/images/whitening_after.png"
                 beforeLabel="Stained / Uneven Teeth"
                 afterLabel="Perfect Whitened Smile"
               />

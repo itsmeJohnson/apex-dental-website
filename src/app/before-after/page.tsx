@@ -22,8 +22,8 @@ const galleryCases: GalleryCase[] = [
     category: "veneers",
     problem: "Severe discoloration, enamel wearing, and moderate spacing gaps in the smile zone.",
     solution: "10 customized translucent porcelain veneers placed on the upper teeth, restoring symmetry and shade.",
-    beforeImg: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=600&h=400&fit=crop",
-    afterImg: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=600&h=400&fit=crop",
+    beforeImg: "/images/veneers_before.png",
+    afterImg: "/images/veneers_after.png",
   },
   {
     id: 2,
@@ -31,8 +31,8 @@ const galleryCases: GalleryCase[] = [
     category: "implants",
     problem: "Missing front incisor from a sporting accident, leading to difficulties speaking and chewing.",
     solution: "Surgical titanium post placement followed by a customized Zirconia crown matching natural shade.",
-    beforeImg: "https://images.unsplash.com/photo-1579684389782-64d84b5e901d?q=80&w=600&h=400&fit=crop",
-    afterImg: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=600&h=400&fit=crop",
+    beforeImg: "/images/implant_before.png",
+    afterImg: "/images/implant_after.png",
   },
   {
     id: 3,
@@ -40,8 +40,8 @@ const galleryCases: GalleryCase[] = [
     category: "whitening",
     problem: "Severe yellowing and dark surface staining from coffee, red wine, and aging.",
     solution: "A single 60-minute in-office LED activation session brightened the enamel by 8 full shades.",
-    beforeImg: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&h=400&fit=crop",
-    afterImg: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=600&h=400&fit=crop",
+    beforeImg: "/images/whitening_before.png",
+    afterImg: "/images/whitening_after.png",
   },
   {
     id: 4,
@@ -49,8 +49,8 @@ const galleryCases: GalleryCase[] = [
     category: "makeover",
     problem: "Heavily worn, chipped, and crowded teeth compounded by old metallic silver fillings.",
     solution: "Full-mouth coordination using metal-free porcelain crowns and minor clear alignment.",
-    beforeImg: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&h=400&fit=crop",
-    afterImg: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600&h=400&fit=crop",
+    beforeImg: "/images/crooked_before.png",
+    afterImg: "/images/crooked_after.png",
   },
 ];
 
