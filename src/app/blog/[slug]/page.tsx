@@ -123,7 +123,7 @@ export default async function BlogDetailPage({ params }: ArticlePageProps) {
       </section>
 
       {/* Article Body */}
-      <section className="py-16 sm:py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 sm:py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           {/* Main Reading Column */}
           <div className="lg:col-span-8 space-y-8 text-left">

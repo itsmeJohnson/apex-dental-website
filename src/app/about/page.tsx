@@ -24,7 +24,7 @@ export default function AboutPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Our Practice</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             About Apex Dental Center
@@ -36,7 +36,7 @@ export default function AboutPage() {
       </section>
 
       {/* Philosophy and Mission */}
-      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6">
             <span className="text-xs text-secondary font-bold uppercase tracking-widest">Our Philosophy</span>
@@ -74,7 +74,7 @@ export default function AboutPage() {
 
       {/* Lead Dentist Details */}
       <section className="py-24 bg-slate-50 border-y border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5">
               <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[4/5] w-full bg-slate-200">
@@ -129,7 +129,7 @@ export default function AboutPage() {
       </section>
 
       {/* Clinical Credentials Grid */}
-      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Academic Excellence</span>
           <h2 className="text-3xl font-poppins font-black text-dark">

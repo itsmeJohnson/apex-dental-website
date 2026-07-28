@@ -130,7 +130,7 @@ export default function ServicesPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Our Care Catalogue</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Premium Dental Services
@@ -142,7 +142,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services List Section */}
-      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      <section className="py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
         {categories.map((cat, catIdx) => (
           <div key={catIdx} className="space-y-8">
             {/* Category Header */}

@@ -67,7 +67,7 @@ export default function ReviewsPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Testimonials</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Patient Reviews &amp; Stories
@@ -79,7 +79,7 @@ export default function ReviewsPage() {
       </section>
 
       {/* Featured Video / Carousel Section */}
-      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-sm mb-16 text-left">
           <div className="mb-8">
             <span className="text-xs text-secondary font-bold uppercase tracking-widest block mb-2">Featured Review</span>
@@ -91,7 +91,7 @@ export default function ReviewsPage() {
 
       {/* Reviews Grid */}
       <section className="py-24 bg-slate-50 border-t border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-slate-200/60 pb-8 text-left">
             <div>
               <h2 className="text-2xl font-poppins font-bold text-dark">All Google Reviews</h2>

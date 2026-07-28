@@ -6,7 +6,7 @@ export default function ContactPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Connect With Us</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Contact Our San Francisco Office
@@ -18,7 +18,7 @@ export default function ContactPage() {
       </section>
 
       {/* Main Grid */}
-      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           {/* Details Column */}
           <div className="lg:col-span-5 space-y-10 text-left">

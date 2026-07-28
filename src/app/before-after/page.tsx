@@ -74,7 +74,7 @@ export default function BeforeAfterPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Clinical Results</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Smile Before &amp; After Gallery
@@ -86,7 +86,7 @@ export default function BeforeAfterPage() {
       </section>
 
       {/* Filter Tabs */}
-      <section className="pt-16 pb-8 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="pt-16 pb-8 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-center gap-2 border-b border-slate-100 pb-8">
           {filters.map((f) => (
             <button
@@ -105,7 +105,7 @@ export default function BeforeAfterPage() {
       </section>
 
       {/* Cases List */}
-      <section className="pb-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      <section className="pb-24 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
         {filteredCases.length > 0 ? (
           filteredCases.map((c, idx) => (
             <div

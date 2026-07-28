@@ -17,7 +17,7 @@ export default function EmergencyBanner() {
           transition={{ duration: 0.3 }}
           className="bg-rose-600 text-white font-medium text-xs sm:text-sm py-2 px-4 flex justify-between items-center relative overflow-hidden z-50 border-b border-rose-700 shadow-sm"
         >
-          <div className="max-w-[1400px] mx-auto flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-center w-full px-8">
+          <div className="max-w-[1680px] mx-auto flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-center w-full px-8">
             <span className="flex items-center gap-1.5 font-bold">
               <AlertCircle className="h-4 w-4 animate-bounce text-rose-200" />
               <span>Same-Day Emergency Dental Appointments Available!</span>
