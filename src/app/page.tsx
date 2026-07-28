@@ -147,7 +147,7 @@ export default function HomePage() {
     <div className="w-full">
       {/* 1. HERO SECTION */}
       <section className="relative overflow-hidden bg-slate-50 pt-10 pb-20 sm:pb-32 sm:pt-16 lg:pb-36 lg:pt-24 border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
             {/* Hero Content Left */}
             <div className="lg:col-span-6 space-y-8 text-center lg:text-left">
@@ -243,7 +243,7 @@ export default function HomePage() {
 
       {/* 2. WHY CHOOSE US */}
       <section className="py-24 sm:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             variants={fadeInUp}
             initial="initial"
@@ -293,7 +293,7 @@ export default function HomePage() {
 
       {/* 3. SERVICES SECTION */}
       <section className="py-24 sm:py-32 bg-slate-50 border-y border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="max-w-2xl space-y-4 text-left">
               <span className="text-xs text-secondary font-bold uppercase tracking-widest">Our Specialty Treatments</span>
@@ -359,7 +359,7 @@ export default function HomePage() {
 
       {/* 4. BEFORE & AFTER PREVIEW */}
       <section className="py-24 sm:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 space-y-6">
               <span className="text-xs text-secondary font-bold uppercase tracking-widest">Real Results</span>
@@ -408,7 +408,7 @@ export default function HomePage() {
 
       {/* 5. REVIEWS & SOCIAL PROOF */}
       <section className="py-24 sm:py-32 bg-slate-50 border-y border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
             <span className="text-xs text-secondary font-bold uppercase tracking-widest">Patient Stories</span>
             <h2 className="text-3xl sm:text-4xl font-poppins font-black text-dark">
@@ -421,7 +421,7 @@ export default function HomePage() {
 
       {/* 6. MEET THE DOCTOR */}
       <section className="py-24 sm:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-200 aspect-[4/5] w-full">
@@ -484,7 +484,7 @@ export default function HomePage() {
 
       {/* 7. TECHNOLOGY */}
       <section className="py-24 sm:py-32 bg-slate-50 border-y border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
             <span className="text-xs text-secondary font-bold uppercase tracking-widest">Dental Innovation</span>
             <h2 className="text-3xl sm:text-4xl font-poppins font-black text-dark">
@@ -511,7 +511,7 @@ export default function HomePage() {
 
       {/* 8. INSURANCE & FINANCING */}
       <section className="py-24 sm:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-6">
               <span className="text-xs text-secondary font-bold uppercase tracking-widest">Affordable Care</span>
@@ -571,7 +571,7 @@ export default function HomePage() {
 
       {/* 9. BOOKING & ONLINE REQUEST (FORM IN HOME PAGE) */}
       <section id="book-online" className="py-24 sm:py-32 bg-slate-50 border-t border-slate-100 scroll-mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 space-y-6">
               <span className="text-xs text-secondary font-bold uppercase tracking-widest font-sans">Easy Booking</span>
@@ -611,7 +611,7 @@ export default function HomePage() {
 
       {/* 10. FAQ SECTION */}
       <section className="py-24 sm:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
             <span className="text-xs text-secondary font-bold uppercase tracking-widest">Frequently Asked</span>
             <h2 className="text-3xl sm:text-4xl font-poppins font-black text-dark">
@@ -638,7 +638,7 @@ export default function HomePage() {
 
       {/* 11. LOCAL SEO CONTACT MAP */}
       <section className="py-24 sm:py-32 bg-slate-50 border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* NAP Info Left */}
             <div className="lg:col-span-5 space-y-6">
@@ -689,7 +689,7 @@ export default function HomePage() {
             <div className="lg:col-span-7">
               <div className="w-full h-[350px] sm:h-[450px] rounded-3xl overflow-hidden border border-slate-200 bg-slate-200 shadow-md">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3153.08272990666!2d-122.421596!3d37.774929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1565243456789!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.091765352662!2d-122.4208472!3d37.7749292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1614052456789!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

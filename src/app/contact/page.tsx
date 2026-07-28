@@ -6,7 +6,7 @@ export default function ContactPage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Connect With Us</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Contact Our San Francisco Office
@@ -18,7 +18,7 @@ export default function ContactPage() {
       </section>
 
       {/* Main Grid */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           {/* Details Column */}
           <div className="lg:col-span-5 space-y-10 text-left">
@@ -109,7 +109,7 @@ export default function ContactPage() {
       {/* Full Width Map */}
       <section className="h-[450px] w-full border-t border-slate-200 bg-slate-200">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3153.08272990666!2d-122.421596!3d37.774929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1565243456789!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.091765352662!2d-122.4208472!3d37.7749292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1614052456789!5m2!1sen!2sus"
           width="100%"
           height="100%"
           style={{ border: 0 }}

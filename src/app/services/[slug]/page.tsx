@@ -382,7 +382,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
 
       {/* Hero Banner Section */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 space-y-6 text-left">
               <Link
@@ -428,7 +428,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       </section>
 
       {/* Main Body Grid */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           {/* Detailed Info Column */}
           <div className="lg:col-span-7 space-y-12 text-left">

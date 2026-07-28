@@ -87,7 +87,7 @@ export default function BlogArchivePage() {
     <div className="bg-white">
       {/* Page Header */}
       <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-xs text-secondary font-bold uppercase tracking-widest">Oral Health Resource</span>
           <h1 className="text-4xl sm:text-5xl font-poppins font-black text-dark tracking-tight">
             Apex Dental Education Blog
@@ -99,7 +99,7 @@ export default function BlogArchivePage() {
       </section>
 
       {/* Filter and Search Bar */}
-      <section className="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-slate-100">
+      <section className="py-12 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 border-b border-slate-100">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Category Tabs */}
           <div className="flex flex-wrap gap-2 justify-center md:justify-start">
@@ -133,7 +133,7 @@ export default function BlogArchivePage() {
       </section>
 
       {/* Blog Cards Grid */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         {filteredPosts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post, idx) => (

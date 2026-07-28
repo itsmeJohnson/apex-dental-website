@@ -37,7 +37,7 @@ export default function Header() {
     <>
       {/* Top Utility Bar */}
       <div className="hidden lg:block bg-dark text-slate-200 text-xs py-2 px-6 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex justify-between items-center font-medium">
+        <div className="max-w-[1400px] mx-auto flex justify-between items-center font-medium">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <MapPin className="h-3.5 w-3.5 text-secondary" />
@@ -69,7 +69,7 @@ export default function Header() {
             : "bg-white py-5"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 focus-visible:outline-none">
             <div className="h-10 w-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-slate-300 font-sans border-t border-slate-800">
       {/* Top Trust Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-b border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-8 border-b border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
         <div className="flex items-center space-x-4 justify-center md:justify-start">
           <div className="p-3 bg-teal-950/50 rounded-xl text-secondary border border-teal-800/30">
             <Shield className="h-6 w-6" />
@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer Grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Brand & Map Info */}
         <div className="space-y-6">
           <div className="flex items-center space-x-2">
@@ -167,7 +167,7 @@ export default function Footer() {
           <div className="w-full h-44 rounded-xl overflow-hidden shadow-inner border border-slate-800 bg-slate-900">
             {/* Standard static/iframe Google Maps container */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3153.08272990666!2d-122.421596!3d37.774929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1565243456789!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.091765352662!2d-122.4208472!3d37.7749292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050ec5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1614052456789!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -185,7 +185,7 @@ export default function Footer() {
 
       {/* Bottom Legal Section */}
       <div className="bg-slate-950/60 py-6 text-xs text-slate-500 border-t border-slate-900/60">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-center md:text-left">
             &copy; {currentYear} Apex Dental Center. All rights reserved. All content, images, and data are protected.
           </p>
